@@ -1,18 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
+import "bootstrap";
 
 // index.css'
-import '../styles/index.css'
+import "../styles/index.css";
 
 // components
-import Home from './components/Home';
-import Seconds from './components/Seconds';
-ReactDOM.createRoot(document.getElementById('root')).render(
+import Seconds from "./components/Seconds";
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Seconds/>
-  </React.StrictMode>,
-)
+    <Seconds />
+  </React.StrictMode>
+);
